@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class AnyConfig {
 
-//    @Autowired //http://localhost:19218/test return 404.
+    @Autowired //http://localhost:19218/test return 404.
             // Comment out this annotation, it works
     AnyFeignClient client;
 
